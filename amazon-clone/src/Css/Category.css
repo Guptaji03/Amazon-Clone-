@@ -1,0 +1,15 @@
+.Product{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid silver;
+    padding: 10px;
+    background-color: white;
+}
+.Product > img {
+    max-height: 180px;
+    width: 100%;
+    object-fit: contain;
+   
+  }
